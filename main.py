@@ -48,6 +48,6 @@ def extraer_mensaje(imagen_path):
     return mensaje
 
 # Llamada de funciones para uso
-ocultar_mensaje('./Esteganografia_python/IDK2.png', 'Esto es secreto xd', './Esteganografia_python/resultados_ocultos/IMG_oculta.png')  #Ocultar mensaje en imagen
+ocultar_mensaje('./Esteganografia_python/IMG_Original.png', 'Esto es secreto xd', './Esteganografia_python/resultados_ocultos/IMG_oculta.png')  #Ocultar mensaje en imagen
 
 print("Mensaje extraído:", extraer_mensaje('./Esteganografia_python/resultados_ocultos/IMG_oculta.png'))  #Para mostrar el mensaje oculto en la imagen
